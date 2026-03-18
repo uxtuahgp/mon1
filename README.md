@@ -54,4 +54,4 @@ Hybryd:
 - VictoriaMetrics
 - 
 ### Task 7 ###  
-
+![Chronograf page](chrono1.jpg)
