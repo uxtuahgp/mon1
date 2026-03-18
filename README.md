@@ -63,6 +63,7 @@ Hybryd:
 В результате композ запустился  
 
 ![Chronograf page](chrono1.jpg)  
-### Task 8 ###  
+### Task 8-9 ###  
 ![Explore query and graph](explore.jpg)  
+В Measurements видно docker но чего-то вразумительного оттуда в плане мониторинга взять не получается - есть статическая информация будьто из inspect, а Fields никаких не увидел  
 
