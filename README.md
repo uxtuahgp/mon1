@@ -54,4 +54,13 @@ Hybryd:
 - VictoriaMetrics
 - 
 ### Task 7 ###  
-![Chronograf page](chrono1.jpg)
+Сборка отказалась подниматься через docker-compose ud -d  
+Подсмотрел, что оказывается поднимать надо не с помощью утилиты docker-compose, как написано в задании, а с помощью ./sandobx up  
+3 контейнера не соглашались подниматься без уговоров: пришлось поправить права на подкаталоги, которые передавались в контейнеры в качестве вольюмов.  
+На Ubuntu так же возникли трудности с /var/run/docker.sock    
+Подсмотрел UID telegraf в контейнере и добавил ACL на докер сокет  
+![telegraf acl for docker socket](setfacl.jpg)  
+В результате композ запустился  
+
+![Chronograf page](chrono1.jpg)  
+
