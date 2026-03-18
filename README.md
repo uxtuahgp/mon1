@@ -63,4 +63,6 @@ Hybryd:
 В результате композ запустился  
 
 ![Chronograf page](chrono1.jpg)  
+### Task 8 ###  
+![Explore query and graph](explore.jpg)  
 
