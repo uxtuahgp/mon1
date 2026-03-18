@@ -42,12 +42,16 @@ Push:
 - затрудняет рагулирование интервалов сбора метрик и делает их нерегулярными  
 ### Task 6 ###  
 Pull:  
-- Prometheus  
+- Prometheus
+
 Push:  
-- TICK  
+- TICK
+ 
 Hybryd:  
-- Zabbix  
-- Ngios
+
+- Zabbix   
+- Ngios  
 - VictoriaMetrics
+- 
 ### Task 7 ###  
 
